@@ -6,6 +6,8 @@ info:
     name: MIT
 servers:
   - url: http://petstore.swagger.io/v1
+steak:
+  - frequency: "* * * * *"
 paths:
   /pets:
     get:
